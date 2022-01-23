@@ -309,6 +309,17 @@ section .skills .skills-box .progress-wrap{
     background-color: var(--twitter);
     width: 78%;
     position: relative;
+    animation-name: raj2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes raj2{
+    from{
+        width: 0;
+    }
+    to{
+        width: 78%;
+    }
 }
 .progress-bar-2{
     display: block;
@@ -317,6 +328,17 @@ section .skills .skills-box .progress-wrap{
     background-color: var(--twitter);
     width: 90%;
     position: relative;
+    animation-name: raj3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes raj3{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
 }
 .progress-bar-3{
     display: block;
@@ -325,6 +347,17 @@ section .skills .skills-box .progress-wrap{
     background-color: var(--twitter);
     width: 70%;
     position: relative;
+    animation-name: raj4;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes raj4{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
 }
 /* ----setting percentage values ----- */
 .tooltip{
